@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct CellRow: View {
-    var data : Futures
+    var data : Features
     var body: some View {
         HStack(alignment: .center, spacing: 9){
             VStack(alignment: .leading){
