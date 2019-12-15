@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F788AB8123A59D1B00AB56CE /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788AB8023A59D1B00AB56CE /* NetworkingManager.swift */; };
+		F788AB8423A59DAB00AB56CE /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788AB8323A59DAB00AB56CE /* Quake.swift */; };
+		F788AB8623A5A58000AB56CE /* CellRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788AB8523A5A58000AB56CE /* CellRow.swift */; };
 		F7A9120A2391E0F9005D066C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A912092391E0F9005D066C /* AppDelegate.swift */; };
 		F7A9120C2391E0F9005D066C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A9120B2391E0F9005D066C /* SceneDelegate.swift */; };
 		F7A9120E2391E0F9005D066C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A9120D2391E0F9005D066C /* ContentView.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F788AB8023A59D1B00AB56CE /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		F788AB8323A59DAB00AB56CE /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		F788AB8523A5A58000AB56CE /* CellRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRow.swift; sourceTree = "<group>"; };
 		F7A912062391E0F9005D066C /* QuakesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuakesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A912092391E0F9005D066C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A9120B2391E0F9005D066C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +82,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F788AB8223A59D9300AB56CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F788AB8323A59DAB00AB56CE /* Quake.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F788AB8723A5AE6400AB56CE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F788AB8023A59D1B00AB56CE /* NetworkingManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F788AB8823A5AE7100AB56CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7A9120D2391E0F9005D066C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F788AB8A23A5AE9300AB56CE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F788AB8523A5A58000AB56CE /* CellRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		F7A911FD2391E0F9005D066C = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +137,12 @@
 		F7A912082391E0F9005D066C /* QuakesApp */ = {
 			isa = PBXGroup;
 			children = (
+				F788AB8A23A5AE9300AB56CE /* Components */,
+				F788AB8823A5AE7100AB56CE /* Views */,
+				F788AB8723A5AE6400AB56CE /* ViewModels */,
+				F788AB8223A59D9300AB56CE /* Models */,
 				F7A912092391E0F9005D066C /* AppDelegate.swift */,
 				F7A9120B2391E0F9005D066C /* SceneDelegate.swift */,
-				F7A9120D2391E0F9005D066C /* ContentView.swift */,
 				F7A9120F2391E0FB005D066C /* Assets.xcassets */,
 				F7A912142391E0FB005D066C /* LaunchScreen.storyboard */,
 				F7A912172391E0FB005D066C /* Info.plist */,
@@ -268,7 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7A9120A2391E0F9005D066C /* AppDelegate.swift in Sources */,
+				F788AB8123A59D1B00AB56CE /* NetworkingManager.swift in Sources */,
+				F788AB8423A59DAB00AB56CE /* Quake.swift in Sources */,
 				F7A9120C2391E0F9005D066C /* SceneDelegate.swift in Sources */,
+				F788AB8623A5A58000AB56CE /* CellRow.swift in Sources */,
 				F7A9120E2391E0F9005D066C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
